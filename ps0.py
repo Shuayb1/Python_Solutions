@@ -4,6 +4,7 @@
 Created on Mon Aug  6 13:08:17 2018
 
 @author: shuayb
+<<<<<<< HEAD
 
 Assignment:
 Write a program that does the following in order:
@@ -33,3 +34,14 @@ y = int(input("Enter number y: "))
 #diplay your result with print method i.e print(), and also make your calculation display along the text using string formatting
 print("X**y = %d" %(x**y))
 print("log(x) = %d" %(numpy.log2(x)))
+=======
+"""
+
+import numpy
+
+x = int(input("Enter number x: "))
+y = int(input("Enter number y: "))
+
+print("X**y = " + str(x**y))
+print("log(x) = " + str(numpy.log2(x)))
+>>>>>>> 0ae0bd4c90d45d425f23d129430bbf42376298c3
