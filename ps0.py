@@ -34,14 +34,5 @@ y = int(input("Enter number y: "))
 #diplay your result with print method i.e print(), and also make your calculation display along the text using string formatting
 print("X**y = %d" %(x**y))
 print("log(x) = %d" %(numpy.log2(x)))
-=======
-"""
 
-import numpy
 
-x = int(input("Enter number x: "))
-y = int(input("Enter number y: "))
-
-print("X**y = " + str(x**y))
-print("log(x) = " + str(numpy.log2(x)))
->>>>>>> 0ae0bd4c90d45d425f23d129430bbf42376298c3
